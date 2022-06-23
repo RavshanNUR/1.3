@@ -9,24 +9,19 @@ body {
 @font-face {
 	font-family: 'TT Lakes Bold';
 	src: url('./fonts/TTLakes-Black.eot');
-	src: local('TT Lakes Italic'), local('TTLakes-Italic'),
-		url('./fonts/TTLakes-Italic.eot') format('embedded-opentype'),
-		url('./fonts/TTLakes-Bold.ttf') format('truetype');
-	font-weight: bold;
+
 }
 
 @font-face {
 	font-family: 'TT Lakes';
 	src: url('./fonts/TTLakes-Black.eot');
-	src: local('TT Lakes Italic'), local('TTLakes-Italic'),
-		url('./fonts/TTLakes-Italic.eot') format('embedded-opentype'),
-		url('./fonts/TTLakes-Thin.ttf') format('woff');
-	font-weight: normal;
+	
 }
 
 @media only screen and (min-width:320px) {
 	body {
-		width: 320px;
+		width: 100vw;
+                height:100vh;
 	}
 
 	.col1 {
@@ -108,7 +103,8 @@ body {
 
 @media only screen and (min-width:768px) {
 	body {
-		width: 768px;
+		width: 100vw;
+                height:100vh;
 	}
 
 	.shapka {
@@ -212,8 +208,8 @@ body {
 
 @media only screen and (min-width:1120px) {
 	body {
-/* 		display: none; */
-		width: 1120px;
+		width: 100vw;
+                height:100vh;
 	}
 
 	 
