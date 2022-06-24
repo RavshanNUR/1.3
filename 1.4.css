@@ -1,0 +1,160 @@
+@font-face {
+	font-family: 'TT Likes-bold';
+	src: url(./fonts/TTLakes-Bold.ttf);
+}
+@font-face {
+	font-family: 'TT Likes-thin';
+	src: url(./fonts/TTLakes-Thin.ttf);
+}
+@font-face {
+	font-family: 'TT Likes-italic';
+	src: url(./fonts/TTLakes-Italic.eot);
+}
+
+html,body,.wrapper{
+	margin:0;
+	padding: 0;
+	display: flex;
+	/* font-family: 'TT Likes'; */
+	height: 1024px;
+}
+
+.header{
+	width: 85%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 23px 24px;
+}
+
+.header a img:not(.header a:nth-child(2) img):hover{
+	opacity:0.5;
+}
+
+.header a:nth-child(2) {
+	margin-left:-50px
+}
+.wrapper a:last-child{
+	/* margin-left:auto; */
+}
+  
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	min-width: 320px;
+	min-height: 100%;
+	box-shadow: 5px -5px 30px 5px rgba(0,0,0, 0.2);
+}
+.wrapper, nav, nav ul, nav li{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.navigation ul {
+	margin: 0;
+	padding: 0;
+}
+.navigation a{
+	font-family: 'TT Likes-bold';
+	font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		/* identical to box height, or 150% */
+	
+		letter-spacing: -0.2px;
+	
+		color: #1B1C21;
+		margin:0 0 20px 24px;
+		padding: 5px;
+		cursor:pointer;
+}
+
+.navigation a:hover{
+	opacity:0.5;
+	/* border:1px solid blue; */
+}
+
+.navigation li:first-child a{
+
+	position: relative;
+	opacity:0.5;
+}
+
+button {
+	font-family: 'TT Likes-bold';
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 24px;
+		/* identical to box height, or 150% */
+	
+		letter-spacing: -0.2px;
+	
+		color: #1B1C21;
+		cursor: pointer;
+	border: none;
+	background-color: white;
+}
+.navigation li:first-child a::before{
+	content: '';
+	background-image: url(./images/highlight.svg);
+	position: absolute;
+	left:-24px;
+	top:0;
+	width: 4px;
+	height: 32px;
+}
+
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+}
+.buttons{
+	display: flex;
+ }
+ .buttons a{
+	margin: 0 0 16px 16px;
+}
+
+.buttons a img:hover{
+	border-radius: 20px;
+	opacity:0.5;
+	/* box-shadow:0 0 2px 2px red */
+}
+
+.email{
+	 margin: 0 0 16px 16px;
+	 font-size: 16px;
+	 font-family: 'TT Likes-thin';
+	 font-weight: bolder;
+
+ }
+.tell{
+	 margin: 0 0 40px 16px;
+	font-family: 'TT Lakes';
+		font-size: 24px;
+		line-height: 32px;
+		/* identical to box height, or 133% */
+	
+		letter-spacing: -0.6px;
+	
+		color: #1B1C21;
+	 font-family: 'TT Likes-bold';
+ 
+ }
+ .lang{
+	margin-bottom: 32px;
+ }
+.lang a{
+	 margin: 0 0 32px 16px;
+	 font-size: 16px;
+	 font-family: 'TT Likes-thin';
+	 font-weight: bolder;
+	 text-decoration: none;
+
+ }
+ .lang a:first-child{
+	opacity:0.4
+ }
