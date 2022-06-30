@@ -1,107 +1,98 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>1.3</title>
-	<link rel='stylesheet' href="./main.css">
+	<title>Document</title>
+	<link rel="stylesheet" href="./1.3proba.css">
 </head>
 <body>
 	<header class="header">
- 		<div class="header_menu-icon menu-icon ">
-			<a tabindex="1" href='./1.4.html'>
+ 		<div class="header__menu-btn menu-btn "> <!--header_menu-icon menu-icon-->
+			<a  href='./1.4.html'>
 				<img src="./images/burger.svg" alt="menu">
 			</a>
 		</div>
-		<div class="divider"><img src="./images/divider.svg" alt=""></div>
-		<div class="header_logo logo">
+		<div class="header__logo logo">
 			<a href='./index.html'>
-				<img src="./images/Group.svg" alt="">
+				<img src="./images/Group.svg" alt="logo-image">
 			</a>
 		</div>
- 		<div class="call">
+ 		<div class="header__call-btn">
 			<a href="#">
-				<img src="./images/call.svg" alt="">
+				<img src="./images/call.svg" alt="calling">
 			</a>
 		 </div>
-		 <div class="chat">
+		 <div class="header__chat-btn">
 			 <a>
-				<img src="./images/chat.svg" alt="">
+				<img src="./images/chat.svg" alt="chat">
 			</a>
 		 </div>
-		 <div class="profil">
+		 <div class="header__profil-btn">
 			 <a>
-				<img src="./images/profile.svg" alt="">
+				<img src="./images/profile.svg" alt="profil">
 			 </a>
 		 </div>
-		<div class="divider2">
-			<img src="./images/divider.svg" alt="">
-		</div>
-		<div class="configur">
+		<div class="header__configur-btn">
 			<a>
-				<img src="./images/repair.svg" alt="">
+				<img src="./images/repair.svg" alt="repairing">
 			</a>
 		 </div>
-		<div class="search">
+		<div class="header__search-btn">
 			<a>
-				<img src="./images/checkstatus.svg" alt="">
+				<img src="./images/checkstatus.svg" alt=" checking">
 			</a>
 		</div>
-	</div>
-
+ 
 	</header>
-	<div class="nav_section">
-		<div class="nav_heder">
-
-			<div class="title">
-					<img src="./images/highlight.svg" alt="activ">
-					<h1 class="title1">Услуги и сервисы</h1>
+	<div class="nav">
+		<div class="nav__header">
+			<div class="nav__title">
+					<h1 class="nav__title-text">Услуги и сервисы</h1>
 			</div>
-			<div class="iconR">
-				<a><p class="iconR-1">Оставить заявку</p> <img src="./images/repair.svg"></a>
-				<a><p class="iconR-2">Статус ремонта</p> <img src="./images/checkstatus.svg"></a>
+			<div class="nav__btn btn">
+				<a><p class="btn__repairing">Оставить заявку</p> <img src="./images/repair.svg" alt="repair"></a>
+				<a><p class="btn__checking">Статус ремонта</p> <img src="./images/checkstatus.svg"  alt="checking status"></a>
 			</div>
 		</div>
 		<nav class="menu-list">
-			<ul class="menu-list__item">
-				<li class="menu-list__item1">
+			<ul class="menu-list__container">
+				<li class="menu-list__item">
 					<a>Ремонтируемые устройства</a>
 				</li>
-				 <li class="menu-list__item2">
+				 <li class="menu-list__item">
 					<a>Дополнительные услуги</a>
 				</li>	
-				<li class="menu-list__item3">
+				<li class="menu-list__item">
 					<a>Цены на услуги</a>
 				</li>	
-				<li class="menu-list__item4">
+				<li class="menu-list__item">
 					<a>Адреса сервисных центров</a>
 				</li>	 
-				<li class="menu-list__item5">
+				<li class="menu-list__item">
 					<a>Специальные цены</a>
 				</li>	 	 
 			</ul>	
 		</nav>
 	</div>
 		<main class="main">
-			<div class="content-text">
-				<h3 class="comment">Отзывы</h3>
-				<h3 class="subtitle">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-				<div class='subtitle2'>  
-						<br>
-						
-						<span class="subtitle22">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</span>
-				</div>
-				<span class="subtitle3">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-				</span>
-					
-				</h3>
-		<div class="line">
-			<img src="./images/icon.svg" class="line__strelka">
-			<button class="line__text">Читать далее</button>
+			<div class="main__text-container text">
+				<!-- <h3 class="comment">Отзывы</h3> -->
+				<p class="text__first-part">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+				</p>
+				<p class='text__second-part'>  
+						Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class='text__third-part'>, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+						</span>
+				</p>
+				
+		<div class="read-more">
+			<!-- <img src="./images/icon.svg" class="line__strelka" alt="acon-line"> -->
+			<button class="read-more__text">Читать далее</button>
 		</div>
 	</div >
-			<img class='logo-image' src="./images/MG_3223.png" alt="logo">
+			<img class='main__image logo' src="./images/MG_3223@2x.jpg"  alt="logo">
+			 
 	</main>
 	
 </body>
