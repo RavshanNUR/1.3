@@ -53,6 +53,12 @@ body {
 	position: relative;
 }
 
+button{
+	cursor: pointer;
+	border-style: none;
+	background-color: white;
+ }
+
 .header__logo::after {
 	content: '';
 	background-image: url(./images/divider.svg);
@@ -274,8 +280,8 @@ body {
 	content: '';
 	background-image: url(./images/icon.svg);
 	background-repeat: no-repeat;
-	width: 22px;
-	height: 22px;
+	width: 15px;
+	height: 15px;
 	position: absolute;
 	top: 7px;
 	left: -18px
@@ -467,19 +473,6 @@ body {
 		margin: 0 32px 0 8px;
 	}
 
-		.nav__btn p {
-			cursor: pointer;
-			font-family: 'TT Lakes Regular';
-			font-size: 16px;
-			line-height: 24px;
-			font-style:normal;
-			font-weight: 700;
-			/* identical to box height, or 150% */
-	
-			letter-spacing: 0.2px;
-	
-			color: black;
-		}
 
 	.nav__header,
 	.nav__btn,
@@ -488,16 +481,38 @@ body {
 		flex-direction: row;
 		align-items: center;
 	}
-
+	
 		.nav__title-text::before {
 			left: -32px;
 		}
-
-	.nav__title {
+		
+		.nav__title {
 		margin-right: auto;
 	}
 
-	.nav-btn a img {
+	.button{
+		display: flex;
+		align-items: center;
+		background-color: #F8F8F8;
+ 		cursor: pointer;
+		font-family: 'TT Lakes Regular';
+		font-size: 16px;
+		line-height: 24px;
+		font-style: normal;
+		font-weight: 700;
+		/* identical to box height, or 150% */
+
+		letter-spacing: 0.2px;
+
+		color: black;
+
+ 	}
+
+	.button:hover{
+		color: blue;
+	}
+
+	.nav-btn img {
 		margin: 0 32px 0 8px;
 		width: 40px;
 		height: 40px;
